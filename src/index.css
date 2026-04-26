@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --font-sans: "Inter", "system-ui", "sans-serif";
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --shadow-premium: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom base resets to ensure smooth theme transitions and full-page layout */
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    color-scheme: light; /* Default light */
+  }
+
+  html.dark {
+    color-scheme: dark; /* Switch scrollbars and system items to dark */
+  }
+  
+  body {
+    @apply antialiased text-zinc-900 dark:text-zinc-100 bg-white dark:bg-zinc-950 transition-colors duration-500 overflow-x-hidden;
+    margin: 0;
+    min-height: 100vh;
+    display: block;
+  }
+}
+
+/* Scrollbar styling for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-400 dark:bg-zinc-700;
+}
