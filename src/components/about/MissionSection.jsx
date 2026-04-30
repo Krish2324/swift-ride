@@ -11,10 +11,10 @@ const MissionSection = () => {
           </div>
         </div>
         <h2 className="text-3xl md:text-5xl font-black text-gray-900 dark:text-white tracking-tighter leading-tight">
-          Clearing the path forward.
+          Your travel needs, covered.
         </h2>
         <p className="text-lg md:text-xl font-medium text-gray-500 dark:text-zinc-400 max-w-3xl mx-auto leading-relaxed">
-          Our mission is to eliminate the friction of modern travel. We believe technology should serve to quietly and efficiently move you to your destination, blending the urgency of transit with the polished reliability of a premium enterprise platform.
+          We are specialised in providing online car hire services such as Airport Taxi Transfer, Multidays Outstation Cabs from your hotel or downtown, and Cab Service for Local Sightseeing.
         </p>
       </div>
     </section>

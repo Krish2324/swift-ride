@@ -19,12 +19,12 @@ const HeroSection = () => {
         {/* Hero Content */}
         <div className="lg:col-span-6 space-y-8 animate-in fade-in slide-in-from-left duration-700">
           <h1 className="text-5xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight">
-            Effortless Movement. <br />
-            <span className="text-yellow-500">Every Time.</span>
+            The Best Taxi <br />
+            <span className="text-yellow-500">Service in India.</span>
           </h1>
           
           <p className="text-xl text-gray-300 max-w-lg leading-relaxed">
-            Experience premium mobility with real-time tracking, transparent pricing, and professional drivers. Your next destination is just a tap away.
+            Providing real facts about travel destinations, most reliable & trustworthy 5-star rated travel services for India's top destinations.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
@@ -47,8 +47,8 @@ const HeroSection = () => {
               ))}
             </div>
             <div className="text-sm text-gray-400">
-              <span className="text-white font-bold block">50k+ Active Riders</span>
-              Trusted in 20+ major cities worldwide.
+              <span className="text-white font-bold block">Trusted Choice</span>
+              Of corporate, luxury & frequent customers.
             </div>
           </div>
         </div>

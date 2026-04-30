@@ -1,6 +1,7 @@
 import React from 'react';
 import { Smartphone, Apple, Share2, Users, Info, MessageSquare } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { APP_NAME } from '../../utils/constants';
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Column 1: Brand */}
         <div className="space-y-6">
-          <div className="text-2xl font-bold italic tracking-tighter">SwiftRide</div>
+          <div className="text-2xl font-bold italic tracking-tighter">{APP_NAME}</div>
           <p className="text-zinc-400 text-sm leading-relaxed max-w-xs">
-            Redefining modern mobility with premium service, transparent pricing, and advanced technology. Your safety is our priority.
+            The Best Taxi Service in India. Specialised in providing online car hire services such as Airport Taxi Transfer, Multidays Outstation Cabs, and Cab Service for Local Sightseeing.
           </p>
           <div className="flex items-center gap-4 text-zinc-400">
             {/* Using generic social placeholders as brand icons were removed in this version of Lucide */}
@@ -66,7 +67,7 @@ const Footer = () => {
       
       <div className="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-zinc-500 text-xs text-center md:text-left">
-          © {new Date().getFullYear()} SwiftRide Mobility Inc. All rights reserved. Built with passion for better movement.
+          © {new Date().getFullYear()} M S Tour & Travels. All rights reserved.
         </p>
       </div>
     </footer>

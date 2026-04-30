@@ -1,4 +1,4 @@
-export const APP_NAME = 'SwiftRide';
+export const APP_NAME = 'MS Tour & Travels';
 
 export const USER_ROLES = {
   USER: 'user',

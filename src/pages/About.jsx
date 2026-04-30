@@ -3,6 +3,7 @@ import AboutHero from '../components/about/AboutHero';
 import MissionSection from '../components/about/MissionSection';
 import CompanyStory from '../components/about/CompanyStory';
 import TrustGrid from '../components/about/TrustGrid';
+import { APP_NAME } from '../utils/constants';
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
         <div className="space-y-4">
           <h2 className="text-4xl md:text-6xl font-black text-gray-900 dark:text-white tracking-tighter">Experience the difference.</h2>
           <p className="text-lg font-medium text-gray-500 dark:text-zinc-400 max-w-2xl mx-auto">
-            Join thousands of travelers who trust SwiftRide for their daily mobility.
+            Join thousands of travelers who trust {APP_NAME} for their daily mobility.
           </p>
         </div>
         <div className="flex justify-center">

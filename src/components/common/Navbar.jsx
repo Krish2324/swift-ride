@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
+import { APP_NAME } from '../../utils/constants';
 import ThemeToggle from './ThemeToggle';
 import { Menu, X } from 'lucide-react';
 
@@ -21,7 +22,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-black italic tracking-tighter text-gray-900 dark:text-white">
-          SwiftRide
+          {APP_NAME}
         </div>
 
         {/* Desktop Nav */}

@@ -7,8 +7,8 @@ const TrustGrid = () => {
     <section className="py-24 px-6 bg-gray-50 dark:bg-zinc-950">
       <div className="max-w-7xl mx-auto space-y-16">
         <div className="text-center space-y-4">
-          <h2 className="text-3xl md:text-5xl font-black text-gray-900 dark:text-white tracking-tighter leading-none">Uncompromising Standards</h2>
-          <p className="text-lg font-medium text-gray-500 dark:text-zinc-500 max-w-2xl mx-auto">Your safety and comfort are engineered into every journey.</p>
+          <h2 className="text-3xl md:text-5xl font-black text-gray-900 dark:text-white tracking-tighter leading-none">Unmatched Experience</h2>
+          <p className="text-lg font-medium text-gray-500 dark:text-zinc-500 max-w-2xl mx-auto">Legacy brand with a customer first approach.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -21,7 +21,7 @@ const TrustGrid = () => {
               <div>
                 <h4 className="text-2xl font-black text-gray-900 dark:text-white mb-4 tracking-tight leading-none">Certified Professional Drivers</h4>
                 <p className="text-sm font-medium text-gray-500 dark:text-zinc-400 leading-relaxed">
-                  Every driver in our fleet undergoes rigorous background checks, defensive driving courses, and regular evaluations to ensure top-tier service and safety.
+                  Our drivers are Hubert Ebner certified and CPR & first aid trained, ensuring top-tier service, passenger safety, and operational efficiency.
                 </p>
               </div>
             </div>
@@ -37,8 +37,8 @@ const TrustGrid = () => {
 
           {/* Small Bento Card 1 */}
           <TrustCard 
-            title="Advanced Safety Tech"
-            description="Our vehicles are equipped with real-time telematics, collision avoidance systems, and continuous structural monitoring."
+            title="GPS Enabled Fleet"
+            description="Our fleet is fully GPS enabled with emergency SOS alerts and comprehensive passenger insurance for a secure journey."
             icon={Shield}
             colorClass="bg-gray-100 dark:bg-zinc-800 text-gray-900 dark:text-white"
             delayClass="delay-200"
@@ -46,8 +46,8 @@ const TrustGrid = () => {
 
           {/* Small Bento Card 2 */}
           <TrustCard 
-            title="24/7 Support"
-            description="A dedicated team monitors every route globally, providing instant support and dynamic rerouting when necessary."
+            title="24/7 Assistance"
+            description="Customer's preference is a priority. We offer 99.5% on-time performance and a 6-hour complaint resolve guarantee."
             icon={Headphones}
             colorClass="bg-gray-100 dark:bg-zinc-800 text-gray-900 dark:text-white"
             delayClass="delay-400"
