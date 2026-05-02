@@ -14,7 +14,7 @@ export default {
         secondary: colors.gray,
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['"Open Sans"', 'Roboto', 'Tahoma', 'Arial', 'helvetica', 'sans-serif'],
       },
       borderRadius: {
         'xl': '0.75rem',

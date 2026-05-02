@@ -10,9 +10,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Services', path: '/select-ride' },
+    { name: 'Services', path: '/services' },
+    { name: 'Routes', path: '/routes' },
     { name: 'Fleet', path: '/pricing' },
-    { name: 'Driver', path: '/dashboard/driver' },
     { name: 'About', path: '/about' },
     { name: 'Support', path: '/contact' },
   ];
@@ -29,7 +29,7 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => {
             const isServicesActive = link.name === 'Services' && 
-              (location.pathname === '/select-ride' || location.pathname === '/dashboard/user');
+              location.pathname === '/services';
             
             return (
               <NavLink
@@ -78,7 +78,7 @@ const Navbar = () => {
           <div className="flex flex-col p-6 gap-4">
             {navLinks.map((link) => {
               const isServicesActive = link.name === 'Services' && 
-                (location.pathname === '/select-ride' || location.pathname === '/dashboard/user');
+                location.pathname === '/services';
 
               return (
                 <NavLink

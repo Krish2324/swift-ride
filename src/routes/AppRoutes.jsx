@@ -9,6 +9,8 @@ import DriverDashboard from '../pages/DriverDashboard';
 import Pricing from '../pages/Pricing';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
+import Services from '../pages/Services';
+import RoutesPage from '../pages/Routes';
 
 const AppRoutes = () => {
   return (
@@ -20,6 +22,8 @@ const AppRoutes = () => {
         <Route path="pricing" element={<Pricing />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="services" element={<Services />} />
+        <Route path="routes" element={<RoutesPage />} />
         <Route path="dashboard">
           <Route path="user" element={<UserDashboard />} />
           <Route path="driver" element={<DriverDashboard />} />
