@@ -11,6 +11,10 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Services from '../pages/Services';
 import RoutesPage from '../pages/Routes';
+import AttachTaxi from '../pages/AttachTaxi';
+import PrivacyPolicy from '../pages/PrivacyPolicy';
+import Terms from '../pages/Terms';
+import CancellationPolicy from '../pages/CancellationPolicy';
 
 const AppRoutes = () => {
   return (
@@ -24,6 +28,10 @@ const AppRoutes = () => {
         <Route path="contact" element={<Contact />} />
         <Route path="services" element={<Services />} />
         <Route path="routes" element={<RoutesPage />} />
+        <Route path="attach-taxi" element={<AttachTaxi />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="terms" element={<Terms />} />
+        <Route path="cancellation-policy" element={<CancellationPolicy />} />
         <Route path="dashboard">
           <Route path="user" element={<UserDashboard />} />
           <Route path="driver" element={<DriverDashboard />} />

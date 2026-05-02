@@ -26,9 +26,10 @@ const Footer = () => {
           <h4 className="text-sm font-bold uppercase tracking-widest text-yellow-500">Company</h4>
           <nav className="flex flex-col gap-3 text-zinc-400 text-sm">
             <Link to="/about" className="hover:text-white transition-colors">About Us</Link>
-            <a href="#" className="hover:text-white transition-colors">Careers</a>
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link to="/attach-taxi" className="hover:text-white transition-colors">Attach Your Taxi</Link>
+            <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-white transition-colors">Terms & Conditions</Link>
+            <Link to="/cancellation-policy" className="hover:text-white transition-colors">Cancellation Policy</Link>
           </nav>
         </div>
 
@@ -36,10 +37,10 @@ const Footer = () => {
         <div className="space-y-6">
           <h4 className="text-sm font-bold uppercase tracking-widest text-yellow-500">Support</h4>
           <nav className="flex flex-col gap-3 text-zinc-400 text-sm">
-            <a href="#" className="hover:text-white transition-colors">Help Center</a>
-            <a href="#" className="hover:text-white transition-colors">Safety Center</a>
-            <a href="#" className="hover:text-white transition-colors">Community Guidelines</a>
-            <a href="#" className="hover:text-white transition-colors">Contact Us</a>
+            <Link to="/contact" className="hover:text-white transition-colors">24/7 Helpline</Link>
+            <a href="https://wa.me/918238917405" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp Support</a>
+            <Link to="/contact" className="hover:text-white transition-colors">Office Location</Link>
+            <Link to="/contact" className="hover:text-white transition-colors">Contact Us</Link>
           </nav>
         </div>
 

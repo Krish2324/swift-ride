@@ -2,7 +2,7 @@
 @config "../tailwind.config.js";
 
 @theme {
-  --font-sans: "Inter", "system-ui", "sans-serif";
+  --font-sans: "Open Sans", "Roboto", "Tahoma", "Arial", "helvetica", "sans-serif";
   --radius-xl: 0.75rem;
   --radius-2xl: 1rem;
   --shadow-premium: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
