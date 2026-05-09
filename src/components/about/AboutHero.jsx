@@ -12,10 +12,10 @@ const AboutHero = () => {
       
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto flex flex-col gap-8 animate-in fade-in slide-in-from-bottom duration-1000">
         <h1 className="text-5xl md:text-8xl font-black text-white tracking-tighter leading-none">
-          Effortless <span className="text-yellow-500">Movement.</span>
+          ABOUT <span className="text-yellow-500">M.S.TRAVELS.</span>
         </h1>
         <p className="text-xl md:text-2xl font-medium text-gray-300 max-w-3xl mx-auto leading-relaxed">
-          We are engineering the future of high-velocity transit. Precision routing, premium fleet, and uncompromising reliability for the modern world.
+          Welcome to M.S.Travels. We are dedicated to making sure that the clients expectations are met with discipline and Quality of Services.
         </p>
       </div>
     </section>

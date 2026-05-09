@@ -11,10 +11,12 @@ const MissionSection = () => {
           </div>
         </div>
         <h2 className="text-3xl md:text-5xl font-black text-gray-900 dark:text-white tracking-tighter leading-tight">
-          Your travel needs, covered.
+          Our Mission & Philosophy
         </h2>
-        <p className="text-lg md:text-xl font-medium text-gray-500 dark:text-zinc-400 max-w-3xl mx-auto leading-relaxed">
-          We are specialised in providing online car hire services such as Airport Taxi Transfer, Multidays Outstation Cabs from your hotel or downtown, and Cab Service for Local Sightseeing.
+        <p className="text-lg md:text-xl font-medium text-gray-500 dark:text-zinc-400 max-w-4xl mx-auto leading-relaxed text-left">
+          <strong className="text-gray-900 dark:text-white">Our Mission:</strong> Our aim is to provide our clients with a travel experience that exceeds their expectations. We strive to be the best travel company in the industry by offering exceptional service, competitive pricing, and innovative travel solutions. Our mission is to make travel accessible and affordable for everyone while maintaining the highest level of quality and customer satisfaction.
+          <br /><br />
+          <strong className="text-gray-900 dark:text-white">Our Philosophy:</strong> At M.S. Travels, we believe that travel is not just about reaching a destination, but it's about the journey. We are committed to making every journey memorable by providing personalized service and attention to detail. We believe in building long-term relationships with our clients based on trust, transparency, and mutual respect.
         </p>
       </div>
     </section>

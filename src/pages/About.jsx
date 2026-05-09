@@ -3,6 +3,7 @@ import AboutHero from '../components/about/AboutHero';
 import MissionSection from '../components/about/MissionSection';
 import CompanyStory from '../components/about/CompanyStory';
 import TrustGrid from '../components/about/TrustGrid';
+import ServicesSection from '../components/about/ServicesSection';
 import { APP_NAME } from '../utils/constants';
 
 const About = () => {
@@ -12,6 +13,7 @@ const About = () => {
       <MissionSection />
       <CompanyStory />
       <TrustGrid />
+      <ServicesSection />
       
       {/* Footer CTA */}
       <section className="py-24 px-6 bg-white dark:bg-zinc-950 border-t border-gray-50 dark:border-zinc-900 text-center space-y-10">
